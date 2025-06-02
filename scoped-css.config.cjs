@@ -2,7 +2,7 @@
 module.exports = {
   inputDir: 'src', // Write all your vanilla content here
   outputDir: 'dist', // This is where the converted files will be created
-  dontFlatten: false, // Keep compound selectors rather than BEM-style flattening
+  dontFlatten: true, // Keep compound selectors rather than BEM-style flattening
   useIDs: true, // Use IDs (1, 2, 3, 4) instead of hash (3d0ccd)
   dontHashFirst: false, // The first scope of a certain type doesn't get an ID or hash
   mergeCss: false, // Merge all the CSS into one file
